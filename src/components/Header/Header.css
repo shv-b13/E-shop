@@ -1,0 +1,137 @@
+.top-header{
+    display: grid;
+    grid-template-columns: 21% 13.5% 30% 28.5% 6.5%;
+}
+.left-top-header{
+    display: grid;
+    /*524 width of this block*/
+    grid-template-columns: 24.5% 24.5% 38.5%;
+    grid-gap: 6%;
+}
+.left-top-header p{
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #2D2D2D;
+}
+.right-top-header{
+    text-align: center;
+    display: grid;
+    /*1092*/
+    grid-template-columns: 67% 11.5% 11.5%;
+    grid-gap: 3%;
+}
+.phoneNumber {
+    display: grid;
+    /*733 */
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%;
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #2D2D2D;
+}
+.faq{
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    color: #2D2D2D;
+    margin-top: 20px;
+}
+.language select {
+    vertical-align: -28px;
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    color: #2D2D2D;
+    outline: none;
+    border: none;
+    border-color: #fff transparent transparent transparent;
+    content: "";
+    appearance: none;
+    text-decoration: underline;
+}
+
+.bottom-header{
+    background: #2D2D2D;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 16% 18.5% 44% 11%;
+    grid-gap: 1%;
+    padding-left: 3%;
+}
+.header-logo img{
+    width: 85%;
+    margin-top: 3%;
+}
+.header-logo{
+    text-align: center;
+}
+.header-section {
+    display: grid;
+    grid-template-columns: 44.5% 1% 54.5%;
+    background: #282828;
+    height: inherit;
+}
+.section-men{
+    text-align: center;
+    font-family: Secular One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.section-women{
+    font-family: Secular One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section-line {
+    width: 2px;
+    height: 85%;
+    margin: auto;
+    background: #C4C4C4;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.header-icons{
+    /*322 */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 29.5%;
+    margin: auto;
+    margin-left: 15%;
+}
+.header-icons img{
+    height: 50px;
+}
+.search-field {
+    background: #FFFFFF;
+    border-radius: 50.5px;
+    height: 35%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 94% 6%;
+}
+.search-field p{
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin: auto;
+    margin-left: 3%;
+    color: #AAAAAA;
+}
+.search-field img{
+    height: 95%;
+}
